@@ -12,7 +12,7 @@
 | `privacy-en.html` | `.../privacy-en.html` | Privacy Policy（英語） |
 | `terms-en.html` | `.../terms-en.html` | Terms of Use（英語） |
 
-アプリからのリンクは `src/constants/links.ts` に定義している（端末の言語で日本語版と英語版を出し分ける）。**URLを変えるときは両方を直す。**
+アプリからのリンクは `src/constants/links.ts` に定義している（端末の言語で日本語版と英語版を出し分ける。サポートは 1 ページなので、英語なら `#en` の段落を開く）。**URLを変えるときは両方を直す。**
 
 ## 公開
 
