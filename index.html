@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="墨筋（Sumikin）のサポート。使い方、墨筋 皆伝版、よくあるご質問、お問い合わせ先。" />
+  <title>墨筋 サポート</title>
+  <style>
+    /* The app's two scenes: white washi, and black washi when the device is dark. Ink only: in the app, vermilion is kept for the muscles trained. */
+    :root {
+      --bg: #fbfaf7;
+      --card: #f3f0e8;
+      --border: #ddd6c8;
+      --text: #141210;
+      --soft: #4a453e;
+      --muted: #6e675d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151311;
+        --card: #1c1a17;
+        --border: #3e3934;
+        --text: #eee8dc;
+        --soft: #c2baad;
+        --muted: #8e867a;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Hiragino Mincho ProN", "Yu Mincho", YuMincho, "Noto Serif JP", serif;
+      line-height: 1.9;
+      -webkit-text-size-adjust: 100%;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+    .brand { font-weight: 700; font-size: 28px; letter-spacing: 0.12em; }
+    .brand a { color: var(--text); text-decoration: none; }
+    .tagline { color: var(--soft); margin-top: 4px; }
+    .lang { font-size: 13px; margin-top: 8px; }
+    h2 { font-size: 19px; margin: 44px 0 12px; padding-left: 12px; border-left: 3px solid var(--text); letter-spacing: 0.04em; }
+    p, li { font-size: 15.5px; }
+    ul { padding-left: 24px; margin: 8px 0; }
+    li + li { margin-top: 6px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    p + p { margin-top: 12px; }
+    .card p + p { margin-top: 18px; }
+    a { color: var(--text); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand"><a href="./">墨筋</a></div>
+    <p class="tagline">筋トレの回復の目安を、墨絵の全身図で。</p>
+    <p class="lang"><a href="#en" lang="en">English</a></p>
+
+    <h2>アプリについて</h2>
+    <p>墨筋（すみきん）は、鍛えた筋肉の回復の目安を、墨絵の全身図で見るアプリです。鍛えた部位に触れると赤くなり、回復するにつれて薄れていきます。開いた瞬間に、今日どこを鍛えられるかが分かります。重量や回数の入力はいらないので、今お使いの記録アプリと併用できます。記録はすべて端末内に保存され、オフラインでご利用いただけます。</p>
+    <p>墨筋が示すのは、記録から計算した回復の目安です。身体を測定するものではなく、医療機器でもありません。病気の診断や治療には使えません。痛みや不調が続くときは、トレーニングを休み、医師にご相談ください。</p>
+
+    <h2>使い方</h2>
+    <ul>
+      <li>「トレーニングを記録」から、鍛えた部位に触れて選び、「次へ」で、どのくらい追い込んだか（軽め・しっかり・限界まで）と鍛えた日を選んで「記録する」</li>
+      <li>ホームの全身図で、赤い部位はまだ回復中。赤が消えたら、また鍛えられる</li>
+      <li>筋肉を長押しすると、その部位の残り時間と回復する時刻が開く。「まだ張っている」で 12 時間延ばし、「もう回復した」で赤を消せる</li>
+      <li>全身図の下の「一覧」で全部位の状態を、「履歴」のタブで鍛えた日と部位ごとの回数を見られる</li>
+      <li>全身図の後ろは水面。左上で「垂らす・書く・散らす」を切り替え、右上の点から墨の色と量、金箔・銀箔を選ぶ</li>
+      <li>部位が回復したら、通知で知らせる。「設定」で通知しない時間帯を選べ、その時間帯に回復した分は、時間帯が終わる時刻に届く</li>
+    </ul>
+    <p>「設定」→「使い方をもう一度見る」から、いつでも使い方の紹介を開けます。</p>
+
+    <h2>墨筋 皆伝版</h2>
+    <p>一度の購入で、ずっと使えます。買い切りで、定期的な請求はありません。</p>
+    <ul>
+      <li><strong>絵姿を選ぶ</strong>: 全身図の絵姿を忍者や力士に、景色を黒和紙や自動（19 時〜6 時は黒和紙）にできる。絵姿はウィジェットにも出る</li>
+      <li><strong>ウィジェット</strong>: ホーム画面（小・中・大）とロック画面で、全身図と今日鍛えられる部位を確かめられる</li>
+      <li><strong>すべての履歴</strong>: 先月より前の記録と、部位ごとの回数を振り返れる</li>
+      <li><strong>部位ごとの回復時間</strong>: 自分の回復に合わせて、部位ごとに時間を調整できる</li>
+    </ul>
+    <p>記録、回復の表示、一覧、通知、回復の速さの調整、記録の書き出しと読み込み、水面は無料です。絵姿と景色は、買う前でも「絵姿を選ぶ」の画面で試せます。</p>
+
+    <h2>よくあるご質問</h2>
+    <div class="card">
+      <p><strong>赤の濃さは、何を表していますか。</strong><br />
+      記録した部位・どのくらい追い込んだか・日時から計算した、回復の目安です。身体を測っているわけではありません。計算のしかたと根拠は、アプリの「設定」→「回復の計算方法」で公開しています。</p>
+      <p><strong>回復の感じ方と目安が合いません。</strong><br />
+      回復には個人差があります。ホームで筋肉を長押しして開く画面の「まだ張っている」（12 時間延ばす）と「もう回復した」（赤を消す）で、その回の目安を直せます。「設定」→「回復の速さ」で全部位をまとめて調整でき、皆伝版では部位ごとの回復時間も変えられます。</p>
+      <p><strong>重量や回数は記録できますか。</strong><br />
+      できません。墨筋は、鍛えた部位とどのくらい追い込んだかだけを記録します。今お使いの記録アプリと併用できます。</p>
+      <p><strong>記録は外部に送信されますか。</strong><br />
+      送信されません。記録、設定、水面と書いた文字は、すべて端末内にのみ保存されます。アカウント登録もいりません。</p>
+      <p><strong>機種変更で記録を引き継げますか。</strong><br />
+      端末のバックアップ（iCloud またはパソコン）から新しい iPhone に復元すれば、記録も引き継がれます。「設定」→「記録を書き出す」でファイルに保存し、新しい iPhone の「記録を読み込む」で戻すこともできます。記録と設定、書いた文字と水面まで戻ります。</p>
+      <p><strong>アプリを削除するとどうなりますか。</strong><br />
+      記録は端末内にのみ保存されているため、アプリを削除するとすべて消えます。削除の前に「記録を書き出す」で控えを残すか、端末のバックアップをお取りください。容量を空けたいだけなら、iPhone の「設定」→「一般」→「iPhoneストレージ」→「墨筋」→「Appを取り除く」で、記録を残したままアプリだけを削除できます。</p>
+      <p><strong>通知が届きません。</strong><br />
+      iPhone の「設定」→「通知」→「墨筋」で通知が許可されているか、アプリの「設定」の「回復したら知らせる」がオンになっているかをご確認ください。「通知しない時間帯」（はじめは 22:00〜7:30）に回復した分は、その時間帯が終わる時刻に届きます。</p>
+      <p><strong>ウィジェットに「皆伝版で使えます」と出ます。</strong><br />
+      ウィジェットは皆伝版の機能です。アプリの「設定」→「墨筋 皆伝版」からご購入いただけます。購入済みの方は、同じ画面の「購入を復元」をお試しください。ウィジェットは、ホーム画面を長押しして、左上の「編集」→「ウィジェットを追加」（または「＋」）から「墨筋」を選ぶと置けます。</p>
+      <p><strong>皆伝版を別の iPhone や家族と使えますか。</strong><br />
+      同じ Apple アカウントの iPhone では、皆伝版の画面の「購入を復元」からご利用いただけます。ファミリー共有にも対応しています。</p>
+      <p><strong>痛みや不調があります。</strong><br />
+      トレーニングを休み、医師にご相談ください。墨筋は医療機器ではなく、病気の診断や治療には使えません。</p>
+    </div>
+
+    <h2>お問い合わせ</h2>
+    <div class="card">
+      <p>ご意見・ご要望・不具合のご報告は、メールでお気軽にご連絡ください。不具合のご連絡には、iPhone の機種、iOS のバージョン、起きた画面を添えていただけると助かります。</p>
+      <p>メール: <a href="mailto:ogilab.apps@gmail.com">ogilab.apps@gmail.com</a></p>
+    </div>
+
+    <h2>プライバシーポリシー・利用規約</h2>
+    <p><a href="./privacy.html">プライバシーポリシー</a> / <a href="./terms.html">利用規約</a></p>
+
+    <h2 id="en" lang="en">English</h2>
+    <div lang="en">
+      <p>Sumikin shows the estimated recovery of the muscles you train on a body map painted in ink. Touch the parts you trained and they turn red, then fade as they recover, so you can see at a glance what you can train today. There are no weights or reps to enter, so it works alongside the log you already use. All of your records stay on your device and the app works offline.</p>
+      <p>What Sumikin shows is an estimate calculated from your records. It does not measure your body, it is not a medical device, and it cannot diagnose or treat anything. If pain or discomfort continues, stop training and talk to a doctor.</p>
+      <p>Sumikin Mastery is a one-time purchase with no recurring charges. It adds characters (the ninja and the sumo wrestler) and scenes (black washi, or Auto: black from 7 pm to 6 am), Home Screen and Lock Screen widgets, all your history beyond last month, and recovery time by part. Recording, the body map, the list, notifications, the recovery pace, exporting and importing, and the water are free.</p>
+      <p>For support, feedback or bug reports, email <a href="mailto:ogilab.apps@gmail.com">ogilab.apps@gmail.com</a>.<br />
+      <a href="./privacy-en.html">Privacy Policy</a> / <a href="./terms-en.html">Terms of Use</a></p>
+    </div>
+    <div class="card" lang="en">
+      <p><strong>What does the red mean?</strong><br />
+      An estimate of recovery calculated from the part, how hard you went and the time you record. It does not measure your body. How it works and where the numbers come from are in Settings &gt; How recovery is estimated.</p>
+      <p><strong>The estimate does not match how I feel.</strong><br />
+      Recovery differs from person to person. Touch and hold a muscle on the home screen, then choose “Still sore” (adds 12 hours) or “It has recovered” (clears the red). Settings &gt; Recovery pace adjusts every part at once, and with Mastery you can set the recovery time of each part.</p>
+      <p><strong>Can I record weights or reps?</strong><br />
+      No. Sumikin records only the parts you trained and how hard you went, so it works alongside the log you already use.</p>
+      <p><strong>Are my records sent anywhere?</strong><br />
+      No. Your records, settings, water and writing are stored only on your device. No account is needed.</p>
+      <p><strong>Can I move my records to a new iPhone?</strong><br />
+      Yes. Restore your new iPhone from a backup (iCloud or a computer) and your records come with it. You can also save a file with Settings &gt; Export records and use Import records on the new iPhone. It brings back your records and settings, and your writing and water too.</p>
+      <p><strong>What happens if I delete the app?</strong><br />
+      Your records are stored only on your device, so deleting the app erases them. Export them or back up your iPhone first. To free up space without losing your records, go to the iPhone's Settings &gt; General &gt; iPhone Storage &gt; Sumikin &gt; Offload App.</p>
+      <p><strong>Notifications do not arrive.</strong><br />
+      Check that notifications are allowed in the iPhone's Settings &gt; Notifications &gt; Sumikin, and that “Tell me when a part recovers” is on in the app's Settings. Anything that recovers during your quiet hours (22:00 to 7:30 unless you change them) arrives when they end.</p>
+      <p><strong>The widget says “Available with Mastery”.</strong><br />
+      Widgets come with Sumikin Mastery, which you can buy from Settings &gt; Sumikin Mastery in the app. If you have already bought it, tap Restore Purchase on the same screen. To add a widget, touch and hold the Home Screen, tap Edit &gt; Add Widget (or +), and choose Sumikin.</p>
+      <p><strong>Can I use Mastery on another iPhone or with my family?</strong><br />
+      Yes. On an iPhone with the same Apple Account, tap Restore Purchase on the Mastery screen. Family Sharing is supported.</p>
+      <p><strong>I feel pain or discomfort.</strong><br />
+      Stop training and talk to a doctor. Sumikin is not a medical device and cannot diagnose or treat anything.</p>
+    </div>
+
+    <footer>© 2026 墨筋 / ogilab</footer>
+  </main>
+</body>
+</html>
